@@ -1,6 +1,22 @@
-.container{
-height: 10px;
-width: 10px;
-background-color: red;
+#container{
+height: 500px;
+width: 500px;
+}
+
+.cell{
+	display: inline-block;
+	height:10px;
+	width: 10px;
+	background-color: red;
+	border: 3px solid black;
+
+}
+
+.row{
+background-color: blue;
+}
+
+#grid{
+	background-color: blue;
 
 }
