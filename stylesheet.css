@@ -1,22 +1,23 @@
 #container{
-height: 500px;
-width: 500px;
+height: 960px;
+width: 960px;
 }
 
 .cell{
 	display: inline-block;
-	height:10px;
-	width: 10px;
-	background-color: red;
-	border: 3px solid black;
+	height:25px;
+	width: 25px;
+	background-color: #D3D3D3;
+	border: 3px solid #bdbdbd;
+	margin-right: 3px; /*to maintain even spacing 
+	because I don't know how to remove line break nor
+	write my js so that a row of cells are all contained in one div*/
+}
 
+.hi{
+	background-color: red;
 }
 
 .row{
 background-color: blue;
-}
-
-#grid{
-	background-color: blue;
-
 }
