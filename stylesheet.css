@@ -1,23 +1,19 @@
+#page{
+	width: 1000px;
+	height: 800px;
+}
+
 #container{
-height: 960px;
 width: 960px;
+height:750px;
+margin: 0px auto;
 }
 
 .cell{
-	display: inline-block;
+	float: left;
 	height:25px;
 	width: 25px;
-	background-color: #D3D3D3;
-	border: 3px solid #bdbdbd;
-	margin-right: 3px; /*to maintain even spacing 
-	because I don't know how to remove line break nor
-	write my js so that a row of cells are all contained in one div*/
-}
-
-.hi{
-	background-color: red;
-}
-
-.row{
-background-color: blue;
+	background-color: white;
+	border: 1px solid #bdbdbd;
+	
 }
